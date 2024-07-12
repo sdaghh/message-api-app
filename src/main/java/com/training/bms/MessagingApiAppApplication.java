@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessagingApiAppApplication {
 	
 	@GetMapping("/")
-	public void printGreeting()
+	public String printGreeting()
 	{
-		System.out.println("brunda");
+		return "brunda";
 	}
 
 	public static void main(String[] args) {
